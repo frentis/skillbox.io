@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Заявка на курс Skillbox</title>
-	<style type="text/css">body {
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Заявка на курс Skillbox</title>
+    <style>
+        body {
             font-family: Arial, sans-serif;
             background-color: #0a0a0a;
             color: #fff;
@@ -52,6 +55,7 @@
             cursor: pointer;
             transition: 0.3s;
             box-shadow: 0 0 10px #ff00ff;
+            text-decoration: none;
         }
         .btn:hover {
             background: #ff1493;
@@ -66,21 +70,22 @@
             color: #00ffff;
             text-decoration: none;
         }
-	</style>
+    </style>
 </head>
 <body>
-<div class="container">
-<h1>Запишитесь на курс Skillbox</h1>
-
-<p>Заполните форму и получите доступ к обучению.</p>
-
-<form action="#" method="POST"><input name="full_name" placeholder="ФИО (Фамилия Имя Отчество)" required="" type="text" /> <input name="email" placeholder="Ваш Email" required="" type="email" /> <input name="phone" placeholder="Ваш номер телефона" required="" type="tel" /><button class="btn" type="submit">Отправить заявку</button></form>
-
-<div class="footer">
-<p>📞 Есть вопросы? <a href="mailto:support@skillbox.ru">Напишите нам</a></p>
-
-<p>🔗 <a href="https://www.skillbox.ru">Перейти на Skillbox</a></p>
-</div>
-</div>
+    <div class="container">
+        <h1>Запишитесь на курс Skillbox</h1>
+        <p>Заполните форму и получите доступ к обучению.</p>
+        <form>
+            <input type="text" name="full_name" placeholder="ФИО (Фамилия Имя Отчество)" required>
+            <input type="email" name="email" placeholder="Ваш Email" required>
+            <input type="tel" name="phone" placeholder="Ваш номер телефона" required>
+            <a href="https://sites.google.com/view/nevergonagiv/home" class="btn">Отправить заявку</a>
+        </form>
+        <div class="footer">
+            <p>📞 Есть вопросы? <a href="mailto:support@skillbox.ru">Напишите нам</a></p>
+            <p>🔗 <a href="https://www.skillbox.ru">Перейти на Skillbox</a></p>
+        </div>
+    </div>
 </body>
 </html>
